@@ -37,3 +37,4 @@ export * from "./components/ui/toaster";
 export * from "./components/ui/toggle";
 export * from "./components/ui/tooltip";
 export * from "./components/ui/use-toast";
+export * from "./lib/utils"
