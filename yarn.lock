@@ -4000,6 +4000,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"next-themes@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "next-themes@npm:0.3.0"
+  peerDependencies:
+    react: ^16.8 || ^17 || ^18
+    react-dom: ^16.8 || ^17 || ^18
+  checksum: 4285c4969eac517ad7addd773bcb71e7d14bc6c6e3b24eb97b80a6e06ac03fb6cb345e75dfb448156d14430d06289948eb8cfdeb52402ca7ce786093d01d2878
+  languageName: node
+  linkType: hard
+
 "node-gyp@npm:latest":
   version: 10.0.1
   resolution: "node-gyp@npm:10.0.1"
@@ -4647,12 +4657,14 @@ __metadata:
     eslint-plugin-react-refresh: ^0.4.3
     input-otp: ^1.2.2
     lucide-react: ^0.279.0
+    next-themes: ^0.3.0
     postcss: ^8.4.31
     react: ^18.2.0
     react-day-picker: ^8.8.2
     react-dom: ^18.2.0
     react-hook-form: ^7.46.2
     react-resizable-panels: ^2.0.12
+    sonner: ^1.4.32
     tailwind-merge: ^1.14.0
     tailwindcss: ^3.3.3
     tailwindcss-animate: ^1.0.7
@@ -4719,6 +4731,16 @@ __metadata:
     ip-address: ^9.0.5
     smart-buffer: ^4.2.0
   checksum: 29586d42e9c36c5016632b2bcb6595e3adfbcb694b3a652c51bc8741b079c5ec37bdd5675a1a89a1620078c8137208294991fabb50786f92d47759a725b2b62e
+  languageName: node
+  linkType: hard
+
+"sonner@npm:^1.4.32":
+  version: 1.4.32
+  resolution: "sonner@npm:1.4.32"
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  checksum: 64b413b3104be8ea6bb1490a334c0289aedb90fe04ab5aac75b018d1d4feec302f20ffe208603fae6b709beee7e5603b8919ce27af997f84f6eb515d81307f4c
   languageName: node
   linkType: hard
 
