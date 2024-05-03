@@ -41,3 +41,8 @@ export * from "./lib/utils";
 export * from "./components/ui/resizable";
 export * from "./components/ui/input-otp";
 export * from "./components/ui/breadcrumb";
+export * from "./components/ui/toggle-group";
+export * from "./components/ui/sonner";
+export * from "./components/ui/pagination";
+export * from "./components/ui/drawer";
+export * from "./components/ui/carousel";

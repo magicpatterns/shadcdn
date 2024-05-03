@@ -1,7 +1,7 @@
 {
   "name": "shadcdn",
   "description": "shadcn/ui components bundled as an ESM module and served over CDN.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "main": "dist/shadcdn.js",
   "files": [
