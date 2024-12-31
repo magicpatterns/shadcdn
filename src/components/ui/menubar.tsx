@@ -2,7 +2,7 @@ import * as React from "react";
 import * as MenubarPrimitive from "@radix-ui/react-menubar";
 import { Check, ChevronRight, Circle } from "lucide-react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/components/lib/utils";
 
 const MenubarMenu = MenubarPrimitive.Menu;
 
@@ -85,7 +85,13 @@ const MenubarContent = React.forwardRef<
 	React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Content>
 >(
 	(
-		{ className, align = "start", alignOffset = -4, sideOffset = 8, ...props },
+		{
+			className,
+			align = "start",
+			alignOffset = -4,
+			sideOffset = 8,
+			...props
+		},
 		ref
 	) => (
 		<MenubarPrimitive.Portal>

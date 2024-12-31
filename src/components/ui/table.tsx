@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/components/lib/utils";
 
 const Table = React.forwardRef<
 	HTMLTableElement,
@@ -42,7 +42,10 @@ const TableFooter = React.forwardRef<
 >(({ className, ...props }, ref) => (
 	<tfoot
 		ref={ref}
-		className={cn("bg-primary font-medium text-primary-foreground", className)}
+		className={cn(
+			"border-t bg-muted/50 font-medium [&>tr]:last:border-b-0",
+			className
+		)}
 		{...props}
 	/>
 ));
@@ -84,7 +87,10 @@ const TableCell = React.forwardRef<
 >(({ className, ...props }, ref) => (
 	<td
 		ref={ref}
-		className={cn("p-4 align-middle [&:has([role=checkbox])]:pr-0", className)}
+		className={cn(
+			"p-4 align-middle [&:has([role=checkbox])]:pr-0",
+			className
+		)}
 		{...props}
 	/>
 ));
