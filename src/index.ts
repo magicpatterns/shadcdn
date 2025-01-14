@@ -46,3 +46,5 @@ export * from "./components/ui/sonner";
 export * from "./components/ui/pagination";
 export * from "./components/ui/drawer";
 export * from "./components/ui/carousel";
+export * from "./components/ui/sidebar";
+export * from "./components/ui/chart";

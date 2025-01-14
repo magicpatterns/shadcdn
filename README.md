@@ -1,14 +1,18 @@
 # Shadcdn
 
-shadcn-ui as a ESM module hosted on a CDN.
+shadcn/ui as a ESM module hosted on a CDN
 
 ```
 https://cdn.jsdelivr.net/npm/shadcdn/+esm
 ```
 
-If you are looking for the normal way to use shadcn, visit the [homepage here](https://ui.shadcn.com/)
+## Authors
 
-## To release a new version:
+shadcdn is created by the team at [Magic Patterns](https://magicpatterns.com): generate UI today.
+
+## Releases
+
+### To release a new version:
 
 1. Update version in package.json
 2. Add components, be sure to add them to the index file
